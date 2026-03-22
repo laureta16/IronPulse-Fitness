@@ -1,0 +1,611 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IronPulse Fitness</title>
+    <meta
+      name="description"
+      content="IronPulse Fitness is a bold, high-energy gym experience built to transform strength, performance, and lifestyle."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Poppins:wght@600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=3" />
+  </head>
+  <body class="is-loading">
+    <div class="page-loader" aria-hidden="true">
+      <div class="page-loader__mark">
+        <svg viewBox="0 0 64 64" role="img" focusable="false">
+          <defs>
+            <linearGradient
+              id="logoGradLoader"
+              x1="0%"
+              y1="0%"
+              x2="100%"
+              y2="100%"
+            >
+              <stop offset="0%" stop-color="#97ff2d" />
+              <stop offset="100%" stop-color="#40d7ff" />
+            </linearGradient>
+          </defs>
+          <circle
+            cx="32"
+            cy="32"
+            r="28"
+            fill="rgba(255,255,255,0.04)"
+            stroke="url(#logoGradLoader)"
+            stroke-width="2.5"
+          />
+          <path
+            d="M14 35h10l4-10 6 22 5-14h11"
+            fill="none"
+            stroke="url(#logoGradLoader)"
+            stroke-width="4"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </div>
+      <p>IronPulse Fitness</p>
+    </div>
+
+    <div class="ambient ambient-one" aria-hidden="true"></div>
+    <div class="ambient ambient-two" aria-hidden="true"></div>
+    <div class="ambient ambient-three" aria-hidden="true"></div>
+    <div class="noise" aria-hidden="true"></div>
+    <div class="site-shell">
+      <header class="topbar">
+        <a class="brand" href="#home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 64 64" role="img" focusable="false">
+              <defs>
+                <linearGradient
+                  id="logoGrad"
+                  x1="0%"
+                  y1="0%"
+                  x2="100%"
+                  y2="100%"
+                >
+                  <stop offset="0%" stop-color="#97ff2d" />
+                  <stop offset="100%" stop-color="#40d7ff" />
+                </linearGradient>
+              </defs>
+              <circle
+                cx="32"
+                cy="32"
+                r="28"
+                fill="rgba(255,255,255,0.04)"
+                stroke="url(#logoGrad)"
+                stroke-width="2.5"
+              />
+              <path
+                d="M14 35h10l4-10 6 22 5-14h11"
+                fill="none"
+                stroke="url(#logoGrad)"
+                stroke-width="4"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+          <span>
+            <strong>IronPulse</strong>
+            <small>Fitness</small>
+          </span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="nav">
+          <a href="#home">Home</a>
+          <a href="#programs">Programs</a>
+          <a href="#trainers">Trainers</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero section reveal" id="home">
+          <div class="hero-copy">
+            <p class="eyebrow">Train hard. Live stronger.</p>
+            <h1>Transform Your Body. Build Your Strength.</h1>
+            <p class="hero-text">
+              Join a performance-first gym built for people who want more
+              energy, more power, and a lifestyle that keeps up with their
+              ambition.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#pricing">Join Now</a>
+              <a class="button secondary" href="#programs">Explore Programs</a>
+            </div>
+
+            <div class="hero-trust">
+              <span>4.9/5 member rating</span>
+              <span>Downtown flagship club</span>
+              <span>Flexible training hours</span>
+            </div>
+
+            <div class="stats">
+              <article>
+                <strong data-count="1250">0</strong>
+                <span>Members trained</span>
+              </article>
+              <article>
+                <strong data-count="28">0</strong>
+                <span>Expert coaches</span>
+              </article>
+              <article>
+                <strong data-count="96">0</strong>
+                <span>Success rate</span>
+              </article>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="hero-media">
+              <div class="hero-media__glow"></div>
+              <div class="hero-media__content">
+                <p>High-intensity group session</p>
+                <strong>Power. Endurance. Results.</strong>
+                <div class="hero-media__chips">
+                  <span>Full-body training</span>
+                  <span>Elite recovery</span>
+                  <span>Coach-led performance</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="ticker reveal" aria-label="Brand highlights">
+          <div>Strength-first coaching</div>
+          <div>Elite equipment</div>
+          <div>24/7 access</div>
+          <div>Recovery and mobility</div>
+        </section>
+
+        <section class="marquee reveal" aria-label="Key benefits">
+          <div class="marquee-track">
+            <span>High-performance coaching</span>
+            <span>Advanced recovery suite</span>
+            <span>Personalized training plans</span>
+            <span>Community-driven workouts</span>
+            <span>Nutrition support</span>
+            <span>High-performance coaching</span>
+            <span>Advanced recovery suite</span>
+            <span>Personalized training plans</span>
+            <span>Community-driven workouts</span>
+            <span>Nutrition support</span>
+          </div>
+        </section>
+
+        <section class="section reveal" id="programs">
+          <div class="section-heading">
+            <p class="eyebrow">Programs</p>
+            <h2>Built for every level, but designed to push limits.</h2>
+          </div>
+
+          <div class="grid programs">
+            <article class="card feature-card">
+              <div class="icon">⚡</div>
+              <h3>Strength Training</h3>
+              <p>
+                Progressive overload plans, free weights, and structured lifts
+                that build real power.
+              </p>
+            </article>
+            <article class="card feature-card">
+              <div class="icon">🏃</div>
+              <h3>Cardio Conditioning</h3>
+              <p>
+                High-output intervals and endurance sessions that improve
+                stamina and burn calories fast.
+              </p>
+            </article>
+            <article class="card feature-card">
+              <div class="icon">🎯</div>
+              <h3>Personal Coaching</h3>
+              <p>
+                One-on-one accountability, form correction, and customized plans
+                built around your goals.
+              </p>
+            </article>
+            <article class="card feature-card">
+              <div class="icon">👥</div>
+              <h3>Group Classes</h3>
+              <p>
+                Community-driven workouts with energetic coaching that make
+                every rep feel bigger.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section reveal" id="trainers">
+          <div class="section-heading">
+            <p class="eyebrow">Trainers</p>
+            <h2>Coaches who bring expertise, energy, and accountability.</h2>
+          </div>
+
+          <div class="grid trainers">
+            <article class="card profile-card">
+              <img
+                src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=900&q=80"
+                alt="Trainer Marcus Reed"
+              />
+              <div class="profile-card__body">
+                <h3>Marcus Reed</h3>
+                <p class="specialty">Strength & Powerlifting</p>
+                <p>
+                  Marcus helps members build serious strength with clean
+                  technique and competitive-level focus.
+                </p>
+              </div>
+            </article>
+            <article class="card profile-card">
+              <img
+                src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=900&q=80"
+                alt="Trainer Talia Brooks"
+              />
+              <div class="profile-card__body">
+                <h3>Talia Brooks</h3>
+                <p class="specialty">HIIT & Fat Loss</p>
+                <p>
+                  Talia creates intense, efficient programs that improve
+                  conditioning without killing motivation.
+                </p>
+              </div>
+            </article>
+            <article class="card profile-card">
+              <img
+                src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=900&q=80"
+                alt="Trainer Andre Cole"
+              />
+              <div class="profile-card__body">
+                <h3>Andre Cole</h3>
+                <p class="specialty">Performance Coaching</p>
+                <p>
+                  Andre blends mobility, athleticism, and mindset work to keep
+                  athletes strong and resilient.
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section reveal" id="pricing">
+          <div class="section-heading">
+            <p class="eyebrow">Pricing</p>
+            <h2>Choose the plan that matches your pace, then raise it.</h2>
+          </div>
+
+          <div class="grid pricing">
+            <article class="card price-card">
+              <p class="plan">Basic</p>
+              <h3>$29<span>/mo</span></h3>
+              <ul>
+                <li>Gym floor access</li>
+                <li>Starter program library</li>
+                <li>Locker room access</li>
+              </ul>
+              <a class="button secondary" href="#contact">Get Basic</a>
+            </article>
+
+            <article class="card price-card featured">
+              <div class="badge">Recommended</div>
+              <p class="plan">Pro</p>
+              <h3>$59<span>/mo</span></h3>
+              <ul>
+                <li>All Basic features</li>
+                <li>Unlimited group classes</li>
+                <li>Monthly coach check-ins</li>
+                <li>Recovery lounge access</li>
+              </ul>
+              <a class="button primary" href="#contact">Join Pro</a>
+            </article>
+
+            <article class="card price-card">
+              <p class="plan">Elite</p>
+              <h3>$99<span>/mo</span></h3>
+              <ul>
+                <li>All Pro features</li>
+                <li>Weekly personal coaching</li>
+                <li>Meal guidance</li>
+                <li>Priority booking</li>
+              </ul>
+              <a class="button secondary" href="#contact">Go Elite</a>
+            </article>
+          </div>
+        </section>
+
+        <section class="section reveal transformation">
+          <div class="section-heading">
+            <p class="eyebrow">Transformation</p>
+            <h2>Visible progress. Real momentum. Better confidence.</h2>
+          </div>
+
+          <div class="transform-grid">
+            <article class="card transform-card">
+              <div class="transform-image before">
+                <span>Before</span>
+              </div>
+              <div class="transform-image after">
+                <span>After</span>
+              </div>
+              <p>
+                In just 12 weeks, members report stronger lifts, tighter
+                conditioning, and a clearer routine.
+              </p>
+            </article>
+
+            <article class="card progress-card">
+              <h3>Member Progress Snapshot</h3>
+              <div class="progress-list">
+                <div>
+                  <span>Strength</span>
+                  <strong>+42%</strong>
+                </div>
+                <div>
+                  <span>Energy</span>
+                  <strong>+58%</strong>
+                </div>
+                <div>
+                  <span>Consistency</span>
+                  <strong>+71%</strong>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section reveal" id="testimonials">
+          <div class="section-heading">
+            <p class="eyebrow">Testimonials</p>
+            <h2>Members stay because the results feel real.</h2>
+          </div>
+
+          <div class="grid testimonials">
+            <article class="card testimonial-card">
+              <p>
+                “IronPulse gave me structure, confidence, and coaches who
+                actually track progress. I feel stronger every month.”
+              </p>
+              <strong>Jenna M.</strong>
+              <span>Marketing Manager</span>
+            </article>
+            <article class="card testimonial-card">
+              <p>
+                “The energy here is unmatched. The classes are intense, but the
+                community makes it easy to stay consistent.”
+              </p>
+              <strong>Daniel R.</strong>
+              <span>Small Business Owner</span>
+            </article>
+            <article class="card testimonial-card">
+              <p>
+                “I joined to get healthier, and now I’m lifting more, recovering
+                better, and actually look forward to training.”
+              </p>
+              <strong>Sofia T.</strong>
+              <span>Creative Director</span>
+            </article>
+          </div>
+        </section>
+
+        <section class="section reveal reviews-section" id="reviews">
+          <div class="section-heading">
+            <p class="eyebrow">Reviews</p>
+            <h2>Unlimited member feedback, all in one place.</h2>
+          </div>
+
+          <div class="reviews-summary">
+            <article class="card summary-card">
+              <span>Live rating</span>
+              <strong id="review-average">4.9</strong>
+              <p>Across hundreds of member experiences</p>
+            </article>
+            <article class="card summary-card">
+              <span>Total reviews</span>
+              <strong id="review-total">3</strong>
+              <p>Growing without a cap through the form below</p>
+            </article>
+            <article class="card summary-card">
+              <span>Member sentiment</span>
+              <strong>Strong</strong>
+              <p>Real stories from people training at IronPulse</p>
+            </article>
+          </div>
+
+          <div class="reviews-layout">
+            <form class="card review-form" id="review-form">
+              <div class="review-form__head">
+                <h3>Leave a review</h3>
+                <p>Share your experience and add a comment to the live feed.</p>
+              </div>
+
+              <label>
+                Your name
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Alex Morgan"
+                  required
+                />
+              </label>
+
+              <label>
+                Rating
+                <div class="star-rating" role="radiogroup" aria-label="Rating">
+                  <input
+                    type="radio"
+                    id="rating-5"
+                    name="rating"
+                    value="5"
+                    checked
+                  />
+                  <label for="rating-5" title="5 stars">★</label>
+                  <input type="radio" id="rating-4" name="rating" value="4" />
+                  <label for="rating-4" title="4 stars">★</label>
+                  <input type="radio" id="rating-3" name="rating" value="3" />
+                  <label for="rating-3" title="3 stars">★</label>
+                  <input type="radio" id="rating-2" name="rating" value="2" />
+                  <label for="rating-2" title="2 stars">★</label>
+                  <input type="radio" id="rating-1" name="rating" value="1" />
+                  <label for="rating-1" title="1 star">★</label>
+                </div>
+              </label>
+
+              <label>
+                Your review
+                <textarea
+                  name="comment"
+                  rows="5"
+                  placeholder="Write your experience here..."
+                  required
+                ></textarea>
+              </label>
+
+              <button class="button primary" type="submit">Post Review</button>
+            </form>
+
+            <div class="review-feed">
+              <div class="review-feed__head">
+                <h3>Recent reviews</h3>
+                <p>Latest comments from members and visitors</p>
+              </div>
+
+              <div
+                class="review-list"
+                id="review-list"
+                aria-live="polite"
+              ></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="cta reveal">
+          <div>
+            <p class="eyebrow">Ready to start?</p>
+            <h2>
+              Join IronPulse Fitness and make your next season your strongest
+              one.
+            </h2>
+          </div>
+          <a class="button primary" href="#contact">Sign Up Today</a>
+        </section>
+
+        <section class="section reveal contact-section" id="contact">
+          <div class="section-heading">
+            <p class="eyebrow">Contact</p>
+            <h2>Start your fitness reset with a quick signup.</h2>
+          </div>
+
+          <div class="contact-grid">
+            <form class="card signup-form">
+              <label>
+                Full Name
+                <input type="text" placeholder="Your name" />
+              </label>
+              <label>
+                Email
+                <input type="email" placeholder="you@example.com" />
+              </label>
+              <label>
+                Goal
+                <select>
+                  <option>Build strength</option>
+                  <option>Lose fat</option>
+                  <option>Improve endurance</option>
+                  <option>Join classes</option>
+                </select>
+              </label>
+              <button class="button primary" type="submit">Request Info</button>
+            </form>
+
+            <aside class="card contact-card">
+              <h3>Visit IronPulse</h3>
+              <p>742 Pulse Avenue, New York, NY</p>
+              <p>+1 (555) 014-7721</p>
+              <p>hello@ironpulsefitness.com</p>
+              <div class="socials">
+                <a href="#" aria-label="Instagram">Instagram</a>
+                <a href="#" aria-label="Facebook">Facebook</a>
+                <a href="#" aria-label="YouTube">YouTube</a>
+              </div>
+              <p class="mini-note">
+                Open daily. First workout consultation included with every new
+                membership.
+              </p>
+            </aside>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="footer-brand">
+          <span class="brand-mark footer-mark" aria-hidden="true">
+            <svg viewBox="0 0 64 64" role="img" focusable="false">
+              <defs>
+                <linearGradient
+                  id="logoGradFooter"
+                  x1="0%"
+                  y1="0%"
+                  x2="100%"
+                  y2="100%"
+                >
+                  <stop offset="0%" stop-color="#97ff2d" />
+                  <stop offset="100%" stop-color="#40d7ff" />
+                </linearGradient>
+              </defs>
+              <circle
+                cx="32"
+                cy="32"
+                r="28"
+                fill="rgba(255,255,255,0.04)"
+                stroke="url(#logoGradFooter)"
+                stroke-width="2.5"
+              />
+              <path
+                d="M14 35h10l4-10 6 22 5-14h11"
+                fill="none"
+                stroke="url(#logoGradFooter)"
+                stroke-width="4"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+          <div>
+            <p>IronPulse Fitness</p>
+            <span>Train with purpose. Move with power.</span>
+          </div>
+        </div>
+
+        <p class="footer-copy">
+          Copyright &copy; 2026 IronPulse Fitness. All rights reserved.
+        </p>
+        <p class="footer-credit">
+          Developed by
+          <a href="https://prosite-al.web.app/" target="_blank" rel="noreferrer"
+            >Prosite</a
+          >
+        </p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
